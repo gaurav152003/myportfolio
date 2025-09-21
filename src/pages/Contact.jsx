@@ -5,7 +5,7 @@ import {
 } from "lucide-react";
 function Contact() {
   return (
-      <section className='flex flex-col gap-8 items-center justify-center mt-30 mb-30  ' id='contact ' >
+      <section className='flex flex-col gap-8 items-center justify-center mt-30 mb-30  ' id='contact' >
            <div className='flex flex-col items-center justify-center max-w-md p-5  rounded-2xl bg-black' >
               <div>
                   <h2 className='  text-3xl font-bold text-center'>Get In Touch</h2>
