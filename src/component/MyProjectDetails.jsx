@@ -12,7 +12,7 @@ function MyProjectDetails({
   return (
       <div className="fixed inset-0 z-50 flex items-center justify-center w-full h-full overflow-hidden backdrop-blur-sm">
       <motion.div
-              className="relative max-w-2xl border shadow-sm rounded-3xl bg-gradient-to-b from-black via-black to-gray-800 border-white/10"
+              className="relative max-w-2xl border shadow-sm rounded-3xl bg-gradient-to-b from-black via-black to-gray-800 border-white/10 mr-1.5 ml-1.5"
               initial={{ opacity: 0, scale: 0.5 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{duration:1}}

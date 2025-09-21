@@ -4,7 +4,7 @@ function Footer() {
     return (
         <>
            <div className='bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[3px]  ' />
-      <div  className='flex items-center h-10 w-full p-10 gap-2 justify-between'>
+      <div  className='flex items-center h-10 w-full sm:p-10 gap-2 justify-between'>
       <p className=' text-neutral-200' >© 2025 Gaurav Yadav All rights reserved.</p>
          <div className='flex gap-3' style={{fontSize:"20px"}}>
               <a href="https://github.com/gaurav152003" target="_blank" >
@@ -20,7 +20,7 @@ function Footer() {
                 <FaWhatsapp className="hover:text-green-500" />
                     </a>
                     </div>
-           <p><span className='inline-flexflex '>Back to top</span><a href='#home' className='bg-neutral-300 ml-2 text-black' style={{borderRadius:"18px",padding:"6px",fontSize:"12px",fontWeight:"bold"}}>&#8593;</a></p>
+           <p><span className='hidden sm:inline-flex '>Back to top</span><a href='#home' className='bg-neutral-300 ml-2 text-black' style={{borderRadius:"18px",padding:"6px",fontSize:"12px",fontWeight:"bold"}}>&#8593;</a></p>
     </div>
         </>
   )
