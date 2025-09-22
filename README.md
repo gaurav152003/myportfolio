@@ -45,7 +45,7 @@ My personal portfolio is a modern, interactive website built using **React.js, T
 ## 📸 Screenshots
 
 ### 💻 Desktop View
-![Desktop Screenshot](your-desktop-image-link)
+![Desktop Screenshot](https://github.com/gaurav152003/myportfolio/blob/master/public/assets/Project/portfolio.png)
 
 ### 📱 Mobile View
 ![Mobile Screenshot](your-mobile-image-link)
