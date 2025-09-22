@@ -1,12 +1,61 @@
-# React + Vite
+# 🌐 Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My personal portfolio is a modern, interactive website built using **React.js, Three.js, Tailwind CSS, and Framer Motion**, showcasing my projects, skills, and contact information in a visually engaging way.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 3D interactive elements and animations powered by **Three.js**
+- Responsive and mobile-friendly UI with **Tailwind CSS**
+- Smooth transitions and dynamic effects using **Framer Motion**
+- Sections include:
+  - Home / About Me
+  - Projects Showcase
+  - Skills & Expertise
+  - Contact Form
+  - Social Media Links & Footer
+- Light/Dark theme toggle (if implemented)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- **React.js** – Frontend framework
+- **Three.js** – 3D animations and visuals
+- **Tailwind CSS** – Responsive styling
+- **React Motion** – Smooth animations and transitions
+- **Vercel** – Deployment
+
+---
+
+## 🌐 Live Demo
+
+🔗 [Portfolio – Live Website](https://myportfolio-roan-three.vercel.app/)
+
+---
+
+## ⚡ Optimization
+
+- Fully responsive across all devices (desktop, tablet, mobile)
+- Lightweight, fast-loading pages
+- Clean design for better **UI/UX**
+
+---
+
+## 📸 Screenshots
+
+### 💻 Desktop View
+![Desktop Screenshot](your-desktop-image-link)
+
+### 📱 Mobile View
+![Mobile Screenshot](your-mobile-image-link)
+
+---
+
+## 🧩 Challenges Faced
+
+- Implementing interactive 3D effects without slowing down the site
+- Ensuring responsive design across different screen sizes
+- Organizing multiple sections for smooth navigation
+- Balancing modern visuals with user-friendly design
