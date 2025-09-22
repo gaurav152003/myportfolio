@@ -1,9 +1,30 @@
 import React from 'react'
-import {
-  Mail,
-  Phone,
-} from "lucide-react";
+import { Mail, Phone } from "lucide-react";
+import emailjs from "emailjs-com";
+
+
 function Contact() {
+    function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_3skoa4o",   // 👉 replace with EmailJS Service ID
+        "template_lk0hj4a",  // 👉 replace with EmailJS Template ID
+        e.target,
+        "VVZSuJgbOU4G0uabr"    // 👉 replace with EmailJS Public Key
+      )
+      .then(
+        (result) => {
+          alert("✅ Message sent successfully!");
+          e.target.reset(); // clear form after send
+        },
+        (error) => {
+          alert("❌ Something went wrong: " + error.text);
+        }
+      );
+  }
+
   return (
       <section className='flex flex-col gap-8 items-center justify-center mt-30 mb-30  ' id='contact' >
            <div className='flex flex-col items-center justify-center max-w-md p-5  rounded-2xl bg-black' >
@@ -23,13 +44,13 @@ function Contact() {
           </div>
           <div className='flex flex-col items-center justify-center max-w-md p-5  rounded-2xl bg-black text-white border border-white/10'  >
               <h2 className='font-bold text-center text-2xl '>Send a Message</h2>
-              <form className='flex flex-col mt-2'>
+              <form className='flex flex-col mt-2' onSubmit={sendEmail}>
                   <label >Your Name :</label>
-                  <input type='text' className='w-100 bg-neutral-300 text-black   rounded-3xl mt-1 p-2 outline-none' placeholder='Full Name' />
-                  <label className='mt-2' > Your Email :</label>
-                  <input type='email' className='w-100 bg-neutral-300 text-black  rounded-3xl mt-1 p-2 outline-none' placeholder='example@gmail.com' />
-                  <label className='mt-2' >Your Message :</label>
-                  <textarea rows={3} type='text' className='w-100 bg-neutral-300 text-black rounded-3xl mt-1 p-2 outline-none' placeholder='Write your message here…' />
+                  <input name='from_name' type='text' className='w-100 bg-neutral-300 text-black   rounded-3xl mt-1 p-2 outline-none' placeholder='Full Name' />
+                  <label className='mt-3' > Your Email :</label>
+                  <input name='from_email' type='email' className='w-100 bg-neutral-300 text-black  rounded-3xl mt-1 p-2 outline-none' placeholder='example@gmail.com' />
+                  <label className='mt-3' >Your Message :</label>
+                  <textarea name='message' rows={3} type='text' className='w-100 bg-neutral-300 text-black rounded-3xl mt-1 p-2 outline-none' placeholder='Write your message here…' />
                   <button type='submit' className=' mt-5 bg-gradient-to-r from-blue-500 to-blue-300 rounded-3xl p-2 '>Send</button>
               </form>
           </div>
