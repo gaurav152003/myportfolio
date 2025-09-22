@@ -30,7 +30,7 @@ My personal portfolio is a modern, interactive website built using **React.js, T
 
 ## 🌐 Live Demo
 
-🔗 [Portfolio – Live Website](https://myportfolio-roan-three.vercel.app/)
+🔗 https://myportfolio-amber-sigma-22.vercel.app/
 
 ---
 
