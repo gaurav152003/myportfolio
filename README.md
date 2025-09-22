@@ -1,6 +1,6 @@
 # 🌐 Personal Portfolio
 
-My personal portfolio is a modern, interactive website built using **React.js, Three.js, Tailwind CSS, and Framer Motion**, showcasing my projects, skills, and contact information in a visually engaging way.
+My personal portfolio is a modern, interactive website built using **React.js, Three.js, Tailwind CSS, and React Motion**, showcasing my projects, skills, and contact information in a visually engaging way.
 
 ---
 
@@ -8,14 +8,13 @@ My personal portfolio is a modern, interactive website built using **React.js, T
 
 - 3D interactive elements and animations powered by **Three.js**
 - Responsive and mobile-friendly UI with **Tailwind CSS**
-- Smooth transitions and dynamic effects using **Framer Motion**
+- Smooth transitions and dynamic effects using **React Motion**
 - Sections include:
   - Home / About Me
   - Projects Showcase
   - Skills & Expertise
   - Contact Form
   - Social Media Links & Footer
-- Light/Dark theme toggle (if implemented)
 
 ---
 
