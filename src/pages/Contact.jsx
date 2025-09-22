@@ -42,7 +42,7 @@ function Contact() {
                   ><Phone className='w-6 h-6 text-black' />Phone : <span className='hover:text-blue-500'> 9321049909</span></a>
               </div>
           </div>
-          <div className='flex flex-col items-center justify-center max-w-md p-5  rounded-2xl bg-black text-white border border-white/10'  >
+          <div className='flex flex-col items-center justify-center max-w-md p-5 ml-2 mr-2 rounded-2xl bg-black text-white border border-white/10 '  >
               <h2 className='font-bold text-center text-2xl '>Send a Message</h2>
               <form className='flex flex-col mt-2' onSubmit={sendEmail}>
                   <label >Your Name :</label>
