@@ -3,7 +3,7 @@ import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 function Footer() {
     return (
         <>
-           <div className='bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[3px]  ' />
+           <div className=" bg-gradient-to-r from-transparent via-neutral-700  to-transparent h-[3px] w-full"/>
       <div  className='flex items-center h-10 w-full p-2 sm:p-10 gap-2 justify-between'>
       <p className=' text-neutral-200' >© 2025 Gaurav Yadav All rights reserved.</p>
          <div className='flex gap-1 sm:gap-3' style={{fontSize:"20px"}}>

@@ -47,8 +47,10 @@ function Hero() {
         </Canvas>
       </motion.div>
 
-          
+         
         </section>
+         
+  
         <Scroll/>
             </>
   );

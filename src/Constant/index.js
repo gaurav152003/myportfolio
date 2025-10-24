@@ -136,21 +136,23 @@ subDescription: [
   },
     {
     id: 4,
-    title: "MovieHunt",
+    title: "Bookify",
     description: 
-  "A Movie Search application built using React and CSS, integrated with the OMDb API, allowing users to search for movies by title, filter by year, and view details like poster, release date, and ratings.",
+  " Bookify is a full-featured online bookstore web application built using React.js and Tailwind CSS, designed to provide users with a smooth and interactive book-shopping experience. It allows users to browse, search, and purchase books while enabling admins to manage the book inventory efficiently.",
 
 subDescription: [
- "Built using React for a dynamic and responsive frontend.",
-  "Styled with CSS for a clean and user-friendly UI.",
-  "Integrated with the OMDb API to fetch movie data in real-time.",
-  "Allows users to search movies by title and filter by release year.",
-  "Displays movie details including poster, year, genre, and ratings.",
-  "Implements state management and conditional rendering for better UX."
+ "Built using React.js for an interactive and responsive user experience.",
+  "Styled with Tailwind CSS to ensure a modern, elegant, and mobile-friendly interface.",
+  "Connected to a JSON Server API for dynamic data handling and CRUD operations.",
+  "Enables users to browse, search, and filter books by title, author, or category.",
+  "Includes cart functionality allowing users to add, remove, and update selected books.",
+  "Integrated Razorpay payment gateway for secure and seamless online transactions.",
+  "Provides an Admin Dashboard to manage books — add, edit, and delete listings easily.",
+  "Implements React Router for smooth navigation across different pages."
 ],
-    href: "https://github.com/gaurav152003/MovieHunt",
+    href: "https://github.com/gaurav152003/Bookify",
     logo: "",
-    image: "/assets/Project/movie.png",
+    image: "/assets/Project/bookify.png",
     tags: [
       {
         id: 1,
@@ -159,8 +161,8 @@ subDescription: [
       },
       {
         id: 2,
-        name: "CSS3",
-        path: "/assets/Logos/css3.svg",
+        name: "TailwindCSS",
+        path: "/assets/Logos/tailwindcss.svg",
       },
       {
         id: 3,
@@ -169,53 +171,53 @@ subDescription: [
       },
       {
         id: 4,
-        name: "Html5",
-        path: "/assets/Logos/html5.svg",
-      },
-      {
-        id: 5,
         name: "VScode",
         path:"/assets/Logos/vscode.svg"
+      },
+        {
+        id: 5,
+        name: "Razorpay",
+        path:"/public/assets/Logos/razorpay-icon (1).svg"
       }
     ],
   },
-    {
-    id: 5,
-    title: "StockTracker",
-    description: 
-  "A standalone Stock Tracker application built using Java (Swing, JDBC) and MySQL, designed to help users efficiently track, manage, and analyze their stock investments in one place.",
+//     {
+//     id: 5,
+//     title: "StockTracker",
+//     description: 
+//   "A standalone Stock Tracker application built using Java (Swing, JDBC) and MySQL, designed to help users efficiently track, manage, and analyze their stock investments in one place.",
 
-subDescription: [
-"Developed using Java (Swing) and JDBC to build a standalone desktop application.",
-  "Integrated MySQL database for secure storage and management of stock portfolios.",
-  "Implemented CRUD operations (Add, Update, Delete, View) for stock holdings.",
-  "Designed real-time calculations to track profit/loss and overall portfolio value.",
-  "Added search and filter functionality for quick access to specific stock records.",
-  "Created a simple and user-friendly interface for smooth navigation and usability."
-],
-    href: "https://github.com/gaurav152003/stockTracker",
-    logo: "",
-    image: "/assets/Project/stock1.png",
-    tags: [
-      {
-        id: 1,
-        name: "Java",
-        path: "/assets/Logos/java.svg",
-      },
-      {
-        id: 2,
-        name: "MYSOL",
-        path: "/assets/Logos/mysql.svg",
-      },
-      {
-        id: 3,
-        name: "NetBeans",
-        path:"/assets/Logos/netbeans.svg"
-      },
+// subDescription: [
+// "Developed using Java (Swing) and JDBC to build a standalone desktop application.",
+//   "Integrated MySQL database for secure storage and management of stock portfolios.",
+//   "Implemented CRUD operations (Add, Update, Delete, View) for stock holdings.",
+//   "Designed real-time calculations to track profit/loss and overall portfolio value.",
+//   "Added search and filter functionality for quick access to specific stock records.",
+//   "Created a simple and user-friendly interface for smooth navigation and usability."
+// ],
+//     href: "https://github.com/gaurav152003/stockTracker",
+//     logo: "",
+//     image: "/assets/Project/stock1.png",
+//     tags: [
+//       {
+//         id: 1,
+//         name: "Java",
+//         path: "/assets/Logos/java.svg",
+//       },
+//       {
+//         id: 2,
+//         name: "MYSOL",
+//         path: "/assets/Logos/mysql.svg",
+//       },
+//       {
+//         id: 3,
+//         name: "NetBeans",
+//         path:"/assets/Logos/netbeans.svg"
+//       },
       
-    ],
-  },
+//     ],
+//   },
 ];
 
 
-
+{/* <div className='bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[3px]  ' /> */}

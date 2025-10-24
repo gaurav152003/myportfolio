@@ -14,8 +14,8 @@ const reviews = [
    
   },
   {
-    name: "StockTracker",
-    body: "A desktop application to manage and track stock investments, built with Java, Swing, and MySQL.",
+    name: "Bookify",
+    body: "An online Bookstore built with React,Tailwind CSS,JSON Server and Razorpay ",
    
   },
   {
