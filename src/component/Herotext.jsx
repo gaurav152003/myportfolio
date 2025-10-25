@@ -1,6 +1,6 @@
 import React from 'react'
 import { FlipWords } from './FlipWords'
-import { delay, motion } from 'motion/react'
+import {  motion } from 'motion/react'
 
 function Herotext() {
   const word = ["Secure", "Modern", "Scalable","Responsive"]

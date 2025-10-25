@@ -11,7 +11,7 @@ import Scroll from "../component/Scroll";
 
 function Hero() {
   const isMobile = useMediaQuery({ maxWidth: 853 });
-
+  
     return (
       <>
     <section className="relative flex flex-col md:flex-row items-center justify-between min-h-screen overflow-hidden c-space px-6" id="home">
@@ -23,7 +23,9 @@ function Hero() {
             //   animate={{ opacity: 1, y: 0 }}
             // transition={{ duration: 1, ease: "easeOut" ,delay:2}}
       >
-        <  Herotext  />
+            <Suspense fallback={null}>
+              <  Herotext  />
+        </Suspense>
       </motion.div>
 
       <motion.div

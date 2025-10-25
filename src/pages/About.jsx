@@ -18,8 +18,8 @@ function About() {
                       </p>
                       <p className='subtext md:mt-2.5 mt-1.5'>I hold a Bachelor’s degree in Computer Science with a strong foundation in programming, problem-solving, and emerging technologies.</p>
                       <p className='subtext cv mt-2 hover:animate-bounce'><a
-                          href="/GAURAV YADAV1.pdf"
-                          download={"GAURAV YADAV1.pdf"}
+                          href="/GAURAV YADAV15.pdf"
+                          download={"GAURAV YADAV15.pdf"}
 
                       >Download CV</a></p>
                   </div>
