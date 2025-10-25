@@ -33,7 +33,7 @@ const ReviewCard = ({ name,  body }) => {
   return (
     <figure 
       className={twMerge(
-        "relative h-full w-64 cursor-pointer overflow-hidden rounded-xl border p-4 transition-transform duration-500 hover:rotate-y-6 hover:scale-105 bg-gradient-to-t from-neutral-600  to-white",
+        "relative h-full w-64 cursor-pointer overflow-hidden rounded-xl border p-4 transition-transform duration-500 hover:rotate-y-6 hover:scale-105 bg-gradient-to-t from-neutral-500  to-white",
     
       )}
       style={{ transformStyle: "preserve-3d" ,border:"1px solid #ccc",boxShadow:"0px 2px 2px black",color:"black" }}
