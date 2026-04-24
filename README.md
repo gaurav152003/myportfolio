@@ -1,5 +1,6 @@
 # 🌐 Personal Portfolio 
-🔗https://myportfolio-bice-nine.vercel.app/
+🔗live: https://myportfolio-bice-nine.vercel.app/
+
 My personal portfolio is a modern, interactive website built using **React.js, Three.js, Tailwind CSS, and React Motion**, showcasing my projects, skills, and contact information in a visually engaging way.
 
 ---
