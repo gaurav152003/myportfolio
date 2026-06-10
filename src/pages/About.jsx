@@ -31,7 +31,7 @@ function About() {
               <a
                 href="/GAURAV YADAV.pdf"
                 download="GAURAV YADAV.pdf"
-                className="cv subtext hover:animate-bounce px-4 py-2"
+                className="cv subtext hover:animate-bounce px-4 py-2 text-center"
               >
                 Download CV
               </a>
@@ -124,7 +124,7 @@ function About() {
 
             <a
               href="#skills"
-              className="project-box mt-4 w-fit hover:animate-bounce"
+              className="project-box mt-4 w-fit hover:animate-bounce text-center"
             >
               Explore Skills
             </a>
