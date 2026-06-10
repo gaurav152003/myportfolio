@@ -1,6 +1,5 @@
 import { Orbiting } from "./Orbiting";
 
-
 export function Frameworks() {
   const skills = [
     "html5",
@@ -9,16 +8,18 @@ export function Frameworks() {
     "react",
     "Three.js",
     "github",
-    "git",
     "vscode",
-    "chatgpt",
     "MongoDB",
     "Node.js",
     "tailwindcss",
     "Express",
-    "microsoft",
-    "Bootstrap_logo",
+    "mysql",
     "vercel",
+    "Spring_Boot",
+    "redux",
+    "postman",
+    "claude",
+    "java",
   ];
   return (
     <div className="relative flex h-[15rem] w-full flex-col items-center justify-center">

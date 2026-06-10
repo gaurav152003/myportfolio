@@ -209,17 +209,15 @@ body {
     6px 6px 0 #555;
   
 }
-.text-smooth-flip{
-  will-change: transform, opacity;
-  backface-visibility: hidden;
-  transform: translateZ(0); /* force GPU */
- color: #fff;
-  text-shadow: 
-    2px 2px 0 #000, 
-    4px 4px 0 #333,
-    6px 6px 0 #555;
+.text-smooth1 {
 
+  text-shadow:
+    2px 2px 0px #60a5fa,  /* light blue glow */
+    4px 4px 0px #3b82f6,  /* medium blue core */
+    6px 6px  0px #1e3a8a;  /* deep blue edge */
 }
+
+
 
 /* about-box*/
 .about-box{
