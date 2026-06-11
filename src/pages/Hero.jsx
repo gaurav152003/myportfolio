@@ -21,7 +21,7 @@ function Hero() {
 
         {/* Left Side */}
         <motion.div
-          className="w-full md:w-1/2 flex flex-col justify-center z-10 mb-10 md:mb-[280px]"
+          className="w-full md:w-1/2 flex flex-col justify-center z-10 mb-1 md:mb-[280px]"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{
@@ -35,7 +35,7 @@ function Hero() {
 
         {/* Right Side */}
         <motion.div
-          className="w-100% md:w-1/2 h-[400px]  md:h-[750px] md:mt-[100px]   "
+          className="w-100% md:w-1/2 h-[500px]  md:h-[750px] md:mt-[100px]   "
           initial={{ opacity: 0, x: -1000 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 5, ease: "easeOut", delay: 1.5 }}
