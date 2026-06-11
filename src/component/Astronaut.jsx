@@ -6,7 +6,7 @@ import { SkeletonUtils } from "three-stdlib";
 export function Model(props) {
   const group = useRef();
 
-  const { scene, animations } = useGLTF("/models/optimized.glb");
+  const { scene, animations } = useGLTF("/models/compressed10.glb");
 
   const clone = useMemo(() => SkeletonUtils.clone(scene), [scene]);
 
@@ -61,4 +61,4 @@ export function Model(props) {
   );
 }
 
-useGLTF.preload("/models/optimized.glb");
+useGLTF.preload("/models/compressed10.glb");
