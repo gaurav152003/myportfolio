@@ -29,8 +29,8 @@ function About() {
             </p>
             <div className="flex gap-4 mt-4 justify-start">
               <a
-                href="/GAURAV YADAV.pdf"
-                download="GAURAV YADAV.pdf"
+                href="/Gaurav_Yadav.pdf"
+                download="Gaurav_Yadav.pdf"
                 className="cv subtext hover:animate-bounce px-4 py-2 text-center"
               >
                 Download CV
